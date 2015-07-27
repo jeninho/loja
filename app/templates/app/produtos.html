@@ -1,0 +1,18 @@
+﻿{% extends "app/layout.html" %}
+
+{% block conteudo %}
+<div class="content">
+    <ul class="list-group">
+        {% for item in lista_item %}
+        <li class="list-group-item">
+            <a href="/item/{{ item.id }}">
+                {{item.nome}} - {{ item.valor }}
+            </a>
+        </li>
+        {% empty %}
+        <li class="list-group-item">Sem registro</li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock %}

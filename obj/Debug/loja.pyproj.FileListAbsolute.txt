@@ -1,0 +1,15 @@
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\bin\Microsoft.PythonTools.WebRole.dll
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\obj\Debug\attach_server.py
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\obj\Debug\visualstudio_py_debugger.py
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\obj\Debug\visualstudio_py_repl.py
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\obj\Debug\visualstudio_py_util.py
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\obj\Debug\__init__.py
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\obj\Debug\__main__.py
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\bin\AzureSetup.cfg
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\bin\Microsoft.PythonTools.AzureSetup.exe
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\bin\Microsoft.PythonTools.AzureSetup.exe.config
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\bin\wfastcgi.py
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\obj\Debug\deployment-updated-pyvenv.cfg
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\ptvs_virtualenv_proxy.py
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\obj\Debug\web.config
+c:\users\emilson\documents\visual studio 2013\Projects\loja\loja\obj\Debug\web.debug.config
