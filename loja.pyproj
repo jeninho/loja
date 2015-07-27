@@ -55,6 +55,7 @@
   <ItemGroup>
     <Content Include="app\templates\app\addproduto.html" />
     <Content Include="app\templates\app\produtos.html" />
+    <Content Include="readme.txt" />
     <Content Include="requirements.txt" />
     <Content Include="app\static\app\content\bootstrap.css" />
     <Content Include="app\static\app\content\bootstrap.min.css" />
@@ -80,11 +81,6 @@
     <Content Include="app\static\app\scripts\_references.js" />
     <Content Include="app\templates\app\index.html" />
     <Content Include="app\templates\app\layout.html" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="readme.mht">
-      <SubType>WebBrowser</SubType>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="django\">
