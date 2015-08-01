@@ -25,7 +25,7 @@ def adiciona(request):
 
     return render(request, 'app/adiciona.html', {'form':form})
 
-def produto(request):
+def produto(request, nr_item):
     item = get_object_or_404(Produtos, pk=nr_item)
     form = FormProdutos(request.POST or None, request.FILES or None, instance=item)
     if form.is_valid():
