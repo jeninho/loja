@@ -11,7 +11,9 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'app.views.index', name='index'),
     url(r'^produtos/$','app.views.produtos', name='produtos'),
-    url(r'^adiciona/$','app.views.addProduto', name='adiciona'),
+    url(r'^adiciona/$','app.views.adiciona', name='adiciona'),
+    url(r'^produto/get/(?P<nr_item>\d+)/$', 'app.views.produto'),
+
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

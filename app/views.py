@@ -17,13 +17,19 @@ def produtos(request):
         'app/produtos.html',
         {'lista_item':lista_itens})
 
-def addProduto(request):
-    if request.method == 'POST':
-        form = FormProdutos(request.POST or None,request.FILES or None)
-        if form.is_valid():
-            form.save()
-            return redirect("/")
-    else:
-        form = FormProdutos()
+def adiciona(request):
+    form = FormProdutos(request.POST or None, request.FILES or None)
+    if form.is_valid():
+        form.save()
+        return redirect("/")
 
-    return render(request, "addproduto.html", {'form':form})
+    return render(request, 'app/adiciona.html', {'form':form})
+
+def produto(request):
+    item = get_object_or_404(Produtos, pk=nr_item)
+    form = FormProdutos(request.POST or None, request.FILES or None, instance=item)
+    if form.is_valid():
+        form.save()
+        return redirect("/")
+
+    return render(request, "app/item.html", {'form': form})

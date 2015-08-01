@@ -53,7 +53,8 @@
     <Folder Include="loja\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\templates\app\addproduto.html" />
+    <Content Include="app\templates\app\adiciona.html" />
+    <Content Include="app\templates\app\item.html" />
     <Content Include="app\templates\app\produtos.html" />
     <Content Include="readme.txt" />
     <Content Include="requirements.txt" />
